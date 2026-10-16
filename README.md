@@ -27,54 +27,6 @@ The starter catalog contains examples for PM-KISAN, PMFBY, Kisan Credit Card, AB
 
 Official links are included in `schemes.json`. Rules, application windows, required documents, and state-level availability can change, so check the official source before acting.
 
-## Requirements
-
-- Python 3.11 or newer
-- `uv`
-- Claude Desktop (optional, for using the MCP tools in Claude)
-
-Install `uv` by following the official instructions: https://docs.astral.sh/uv/
-
-## Run locally
-
-Open a terminal in this project folder and run:
-
-```bash
-uv sync
-uv run python server.py
-```
-
-The server runs over stdio for an MCP client. It may look like the terminal is waiting; that is normal while the MCP server is running. Use `Ctrl+C` to stop it.
-
-## Run tests
-
-```bash
-uv run python -m unittest discover -s tests
-```
-
-## Connect to Claude Desktop
-
-1. Find your Claude Desktop configuration file. Its usual location on Windows is `%APPDATA%\Claude\claude_desktop_config.json`.
-2. Add the `schemesaathi` entry inside the existing `mcpServers` object. Keep your other MCP servers and settings; do not replace the whole config file.
-3. Change the directory path below to the full path where you extracted this project.
-4. Restart Claude Desktop completely.
-
-Example entry:
-
-```json
-"schemesaathi": {
-  "command": "uv",
-  "args": [
-    "--directory",
-    "C:\\path\\to\\schemesaathi-mcp",
-    "run",
-    "python",
-    "server.py"
-  ]
-}
-```
-
-If Claude Desktop cannot find `uv`, use the full path to your `uv.exe` as the `command` value. For example, on one Windows setup it may be installed at `C:\\Users\\YourUser\\.local\\bin\\uv.exe`. Use the actual path on your own computer.
 
 ## Example requests to try
 
@@ -100,9 +52,6 @@ schemesaathi-mcp/
 ├── schemes.json
 ├── pyproject.toml
 ├── README.md
-├── .gitignore
-├── data/
-│   └── README.md
 └── tests/
     └── test_server.py
 ```
