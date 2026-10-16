@@ -1,0 +1,116 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN Samman Nidhi",
+    "category": "agriculture",
+    "summary": "A central sector scheme that provides income support to eligible landholding farmer families, subject to the scheme's rules and exclusions.",
+    "who_may_benefit": [
+      "Landholding farmer families who meet the scheme rules",
+      "Applicants whose land and identity records can be verified"
+    ],
+    "eligibility_notes": [
+      "Eligibility depends on land records and scheme exclusions.",
+      "Some categories of higher-income or office-holding individuals may be excluded; check the current official rules."
+    ],
+    "documents_to_check": [
+      "Aadhaar or accepted identity details",
+      "Bank account details",
+      "Landholding / land-record details",
+      "Mobile number"
+    ],
+    "official_url": "https://pmkisan.gov.in/",
+    "source_label": "Official PM-KISAN portal",
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "agriculture",
+    "summary": "A crop insurance scheme intended to help eligible farmers manage specified crop-loss risks, subject to notified crops, areas, seasons, and current enrollment rules.",
+    "who_may_benefit": [
+      "Farmers growing crops notified for coverage in their area and season",
+      "Farmers who meet the current enrollment and land/tenancy requirements"
+    ],
+    "eligibility_notes": [
+      "Availability depends on the state, district, crop, season, and current notification.",
+      "Enrollment windows and required documents can change; verify them on the official portal."
+    ],
+    "documents_to_check": [
+      "Identity details",
+      "Bank account details",
+      "Land records or valid tenancy/cultivation documents, as applicable",
+      "Crop and sowing details"
+    ],
+    "official_url": "https://pmfby.gov.in/",
+    "source_label": "Official PMFBY portal",
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "category": "agriculture",
+    "summary": "A credit facility intended to support eligible farmers' agricultural and related credit needs through participating banks.",
+    "who_may_benefit": [
+      "Eligible farmers and other categories permitted under current KCC guidelines",
+      "Applicants who meet the lending bank's documentation and credit assessment requirements"
+    ],
+    "eligibility_notes": [
+      "Final approval, credit limit, and terms are decided by the bank under applicable guidelines.",
+      "Ask the participating bank for its current application form and document list."
+    ],
+    "documents_to_check": [
+      "Identity and address proof",
+      "Photograph, if requested by the bank",
+      "Land/cultivation records, where applicable",
+      "Bank-specific application and supporting documents"
+    ],
+    "official_url": "https://www.myscheme.gov.in/",
+    "source_label": "MyScheme official government scheme directory (search for Kisan Credit Card)",
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "pmjay",
+    "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
+    "category": "health",
+    "summary": "A publicly funded health assurance scheme for eligible families, subject to the scheme's current eligibility rules and implementation details.",
+    "who_may_benefit": [
+      "Families/persons identified as eligible under current PM-JAY rules",
+      "Applicants whose eligibility can be confirmed through official channels"
+    ],
+    "eligibility_notes": [
+      "Do not assume eligibility from income or occupation alone.",
+      "Check the official portal or an authorized help desk to confirm current eligibility and available benefits."
+    ],
+    "documents_to_check": [
+      "Identity details",
+      "Any eligibility/family identification details requested by the official process",
+      "Supporting documents requested by an authorized help desk"
+    ],
+    "official_url": "https://pmjay.gov.in/",
+    "source_label": "Official PM-JAY portal",
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma",
+    "category": "skill-and-business",
+    "summary": "A central scheme supporting eligible traditional artisans and craftspeople in notified trades through a package of support, subject to current scheme rules.",
+    "who_may_benefit": [
+      "Traditional artisans and craftspeople working in a notified trade",
+      "Applicants who meet current age, trade, family, and other scheme conditions"
+    ],
+    "eligibility_notes": [
+      "The notified trade list and exclusions matter; review the current official guidelines.",
+      "Registration or application does not guarantee approval or benefits."
+    ],
+    "documents_to_check": [
+      "Aadhaar and mobile number",
+      "Bank account details",
+      "Trade/occupation details",
+      "Any documents requested during official verification"
+    ],
+    "official_url": "https://pmvishwakarma.gov.in/",
+    "source_label": "Official PM Vishwakarma portal",
+    "last_reviewed": "2026-10-16"
+  }
+]
