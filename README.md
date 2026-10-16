@@ -28,22 +28,6 @@ The starter catalog contains examples for PM-KISAN, PMFBY, Kisan Credit Card, AB
 Official links are included in `schemes.json`. Rules, application windows, required documents, and state-level availability can change, so check the official source before acting.
 
 
-## Example requests to try
-
-- Find schemes related to farming.
-- Explain PM-KISAN in simple words and link to the official portal.
-- Prepare a document checklist for Kisan Credit Card.
-- I am a traditional artisan. What details should I check for PM Vishwakarma?
-- Help me identify what information is missing before I check eligibility.
-
-## Limitations and responsible use
-
-- This project searches only the bundled catalog; it does not query a live government database.
-- Eligibility checks are preliminary and keyword-based, not official decisions.
-- It does not submit applications, verify identity, or guarantee benefits.
-- Never share passwords or OTPs with agents or through this tool.
-- Check the official scheme portal or an authorized office for current rules.
-
 ## Project structure
 
 ```text
@@ -56,6 +40,3 @@ schemesaathi-mcp/
     └── test_server.py
 ```
 
-## License
-
-This project is provided for educational use. Add a license file if you decide how you want others to reuse your code.
